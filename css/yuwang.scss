@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+.yw-main {
+  padding: .5rem;
+  background: #fff;
+}
+
+.fw600 {
+  font-weight: 600;
+}
+
+.yw-main .paragraph {
+  font-size: .4rem;
+  text-align: center;
+}
+
+.yw-main .paragraph .red {
+  color: red;
+  font-weight: 600;
+}
+
+.yw-main .illustraction {
+  margin-top: .6em;
+  margin-bottom: .6em;
+}
+
+.yw-main .yw-title {
+  font-size: .66rem;
+  font-weight: 600;
+  margin-bottom: .3rem;
+}
+
+.yw-main .yw-p-title {
+  font-size: .56rem;
+  font-weight: 600;
+}
+
+.yw-main .paragraph-huge {
+  font-size: .98rem;
+  font-weight: 400;
+}
+
+.yw-billboard {
+  margin-top: .4rem;
+}
+
+.yw-billboard-photo {
+  display: inline-block;
+  background-repeat: no-repeat;
+  /*//width: 3.49rem;
+  //height: 3.22rem;*/
+  width: (112rem/37.5);
+  height: (120rem/37.5);
+  background-size: percentage(558/112) percentage(311/120);
+}
+
+.yw-billboard-item {
+  font-size: .4rem;
+  margin-bottom: .2rem;
+}
+
+.yw-billboard-item > * {
+  float: left;
+}
+
+.yw-billboard-item::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.yw-billboard-1 .yw-billboard-item:nth-child(1) .yw-billboard-photo {
+  background-image: url('../images/human1.jpg');
+  background-position: 0 0;
+}
+
+.yw-billboard-1 .yw-billboard-item:nth-child(2) .yw-billboard-photo {
+  background-image: url('../images/human1.jpg');
+  background-position: percentage(149/(558 - 112)) 0;
+}
+
+.yw-billboard-1 .yw-billboard-item:nth-child(3) .yw-billboard-photo {
+  background-image: url('../images/human1.jpg');
+  background-position: percentage(296 /(558 - 112)) 0;
+}
+
+.yw-billboard-1 .yw-billboard-item:nth-child(4) .yw-billboard-photo {
+  background-image: url('../images/human1.jpg');
+  background-position: percentage(443/(558 - 112)) 0;
+}
+
+.yw-billboard-1 .yw-billboard-item:nth-child(5) .yw-billboard-photo {
+  background-image: url('../images/human1.jpg');
+  background-position: 0 percentage(182/(311 - 120));
+}
+
+.yw-billboard-1 .yw-billboard-item:nth-child(6) .yw-billboard-photo {
+  background-image: url('../images/human1.jpg');
+  background-position: percentage(149/(558 - 112)) percentage(182/(311 - 120));
+}
+
+.yw-billboard-1 .yw-billboard-item:nth-child(7) .yw-billboard-photo {
+  background-image: url('../images/human1.jpg');
+  background-position:  percentage(296/(558 - 112)) percentage(182/(311 - 120));
+}
+
+.yw-billboard-1 .yw-billboard-item:nth-child(8) .yw-billboard-photo {
+  background-image: url('../images/human1.jpg');
+  background-position:  percentage(443/(558 - 112))  percentage(182/(311 - 120));
+}
+
+
+
+
+.yw-billboard-2 .yw-billboard-item:nth-child(1) .yw-billboard-photo {
+  background-image: url('../images/human2.jpg');
+  background-position: 0 0;
+}
+
+.yw-billboard-2 .yw-billboard-item:nth-child(2) .yw-billboard-photo {
+  background-image: url('../images/human2.jpg');
+  background-position: percentage(149/(555 - 112)) 0;
+}
+
+.yw-billboard-2 .yw-billboard-item:nth-child(3) .yw-billboard-photo {
+  background-image: url('../images/human2.jpg');
+  background-position: percentage(296/(555 - 112)) 0;
+}
+
+.yw-billboard-2 .yw-billboard-item:nth-child(4) .yw-billboard-photo {
+  background-image: url('../images/human2.jpg');
+  background-position: percentage(443/(555 - 112)) 0;
+}
+
+.yw-billboard-2 .yw-billboard-item:nth-child(5) .yw-billboard-photo {
+  background-image: url('../images/human2.jpg');
+  background-position: 0 percentage(185/(308 - 120));
+}
+
+.yw-billboard-2 .yw-billboard-item:nth-child(6) .yw-billboard-photo {
+  background-image: url('../images/human2.jpg');
+  background-position: percentage(149/(555 - 112)) percentage(185/(308 - 120));
+}
+
+.yw-billboard-2 .yw-billboard-item:nth-child(7) .yw-billboard-photo {
+  background-image: url('../images/human2.jpg');
+  background-position: percentage(296/(555 - 112)) percentage(185/(308 - 120));
+}
+
+.yw-billboard-2 .yw-billboard-item:nth-child(8) .yw-billboard-photo {
+  background-image: url('../images/human2.jpg');
+  background-position: percentage(443/(555 - 112)) percentage(185/(308 - 120));
+}
+
+.yw-billboard-cnt {
+  text-align: center;
+  margin-left: .5rem;
+}
+
+.yw-billboard-cnt-name :nth-child(1) {
+  margin-right: .2rem;
+}
+
+.yw-billboard-cnt-slogan {
+  font-size: .56rem;
+  font-weight: 400;
+  color: red;
+}
