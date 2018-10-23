@@ -9,35 +9,38 @@
   font-weight: 600;
 }
 
-.yw-main .paragraph {
-  font-size: .4rem;
-  text-align: center;
-}
+.yw-main {
+  .paragraph {
+    font-size: .4rem;
+    text-align: center;
+    text-indent: .8rem;
+    .red {
+      color: red;
+      font-weight: 600;
+    }
+  }
+  .paragraph-cnt {
+    text-align: left;
+    text-indent: .8rem;
+  }
+  .illustraction {
+    margin-top: .6em;
+    margin-bottom: .6em;
+  }
+  .yw-title {
+    font-size: .66rem;
+    font-weight: 600;
+    margin-bottom: .3rem;
+  }
+  .yw-p-title {
+    font-size: .56rem;
+    font-weight: 600;
+  }
+  .paragraph-huge {
+    font-size: .98rem;
+    font-weight: 400;
+  }
 
-.yw-main .paragraph .red {
-  color: red;
-  font-weight: 600;
-}
-
-.yw-main .illustraction {
-  margin-top: .6em;
-  margin-bottom: .6em;
-}
-
-.yw-main .yw-title {
-  font-size: .66rem;
-  font-weight: 600;
-  margin-bottom: .3rem;
-}
-
-.yw-main .yw-p-title {
-  font-size: .56rem;
-  font-weight: 600;
-}
-
-.yw-main .paragraph-huge {
-  font-size: .98rem;
-  font-weight: 400;
 }
 
 .yw-billboard {
@@ -101,16 +104,13 @@
 
 .yw-billboard-1 .yw-billboard-item:nth-child(7) .yw-billboard-photo {
   background-image: url('../images/human1.jpg');
-  background-position:  percentage(296/(558 - 112)) percentage(182/(311 - 120));
+  background-position: percentage(296/(558 - 112)) percentage(182/(311 - 120));
 }
 
 .yw-billboard-1 .yw-billboard-item:nth-child(8) .yw-billboard-photo {
   background-image: url('../images/human1.jpg');
-  background-position:  percentage(443/(558 - 112))  percentage(182/(311 - 120));
+  background-position: percentage(443/(558 - 112)) percentage(182/(311 - 120));
 }
-
-
-
 
 .yw-billboard-2 .yw-billboard-item:nth-child(1) .yw-billboard-photo {
   background-image: url('../images/human2.jpg');
@@ -153,7 +153,7 @@
 }
 
 .yw-billboard-cnt {
-  text-align: center;
+  text-align: left;
   margin-left: .5rem;
 }
 
